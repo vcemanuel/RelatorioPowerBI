@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Power BI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório Atualizado</h1>
+    <p>Última atualização: <span id="dataAtualizacao"></span></p>
+    <img src="relatorio.pdf" alt="Relatório Power BI">
+    <script>
+        // Atualiza a data de forma automática
+        document.getElementById("dataAtualizacao").textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
