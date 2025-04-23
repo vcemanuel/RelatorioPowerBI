@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meus Sites</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Escolha um site:</h1>
+  <div class="button-container">
+    <button class="btn" onclick="location.href='https://vcemanuel.github.io/RelatorioPowerBI/Segurança'">Site 1</button>
+    <button class="btn" onclick="location.href='https://vcemanuel.github.io/RelatorioPowerBI/PTL'">Site 2</button>
+    <button class="btn" onclick="location.href='https://vcemanuel.github.io/RelatorioPowerBI/Carregamento'">Site 3</button>
+    <button class="btn" onclick="location.href='https://vcemanuel.github.io/RelatorioPowerBI/Telemetria'">Site 4</button>
+  </div>
+</body>
+</html>
